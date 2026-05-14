@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #f8fafc;
+
+    --card: #0f1629;
+    --card-foreground: #f8fafc;
+
+    --popover: #0f1629;
+    --popover-foreground: #f8fafc;
+
+    --primary: #2563eb;
+    --primary-foreground: #ffffff;
+
+    --secondary: #1e293b;
+    --secondary-foreground: #f8fafc;
+
+    --muted: #1e293b;
+    --muted-foreground: #94a3b8;
+
+    --accent: #2563eb;
+    --accent-foreground: #ffffff;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+
+    --border: #1e293b;
+    --input: #1e293b;
+    --ring: #2563eb;
+
+    --radius: 4px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom Typography Utilities */
+.font-syne {
+  font-family: var(--font-syne), sans-serif;
+}
+.font-jetbrains {
+  font-family: var(--font-jetbrains-mono), monospace;
+}
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Global scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: var(--radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+/* Every number must be monospace */
+.score-display { font-family: var(--font-jetbrains-mono), monospace; font-size: 2rem; font-weight: 600; letter-spacing: -0.02em; }
+.delta-display { font-family: var(--font-jetbrains-mono), monospace; font-size: 1.25rem; font-weight: 500; }
+.id-display { font-family: var(--font-jetbrains-mono), monospace; font-size: 0.75rem; color: var(--text-secondary); }
+
+/* Card base */
+.finguard-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 4px; }
+.advocate-card { background: var(--bg-advocate); border-left: 3px solid var(--accent-success); }
+.challenger-card { background: var(--bg-challenger); border-left: 3px solid var(--accent-danger); }
+.arbitrator-card { background: var(--bg-arbitrator); border-left: 3px solid var(--accent-primary); }
+.escalation-card { background: #1f1500; border-left: 3px solid var(--accent-warning); }
+
+/* Verdict badges */
+.badge-approved { background: #14532d; color: #22c55e; border: 1px solid #22c55e; font-family: var(--font-jetbrains-mono), monospace; font-size: 0.7rem; padding: 2px 8px; border-radius: 2px; letter-spacing: 0.1em; }
+.badge-rejected { background: #450a0a; color: #ef4444; border: 1px solid #ef4444; font-family: var(--font-jetbrains-mono), monospace; font-size: 0.7rem; padding: 2px 8px; border-radius: 2px; letter-spacing: 0.1em; }
+.badge-escalated { background: #451a00; color: #f59e0b; border: 1px solid #f59e0b; font-family: var(--font-jetbrains-mono), monospace; font-size: 0.7rem; padding: 2px 8px; border-radius: 2px; letter-spacing: 0.1em; }
+.badge-mock { background: #1e1b4b; color: #818cf8; border: 1px solid #818cf8; font-family: var(--font-jetbrains-mono), monospace; font-size: 0.7rem; padding: 2px 8px; border-radius: 2px; letter-spacing: 0.1em; }
