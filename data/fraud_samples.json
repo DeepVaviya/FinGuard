@@ -1,0 +1,62 @@
+[
+  {
+    "transaction_id": "FRD-2024-001",
+    "amount": 750000,
+    "merchant": "Unknown Overseas Merchant",
+    "location": "Lagos, Nigeria",
+    "timestamp": "2024-12-15T14:30:00+05:30",
+    "user_id": "USR-4521",
+    "device_ip": "197.210.44.102",
+    "is_foreign": true,
+    "hour_of_day": 14,
+    "previous_avg_transaction": 12000
+  },
+  {
+    "transaction_id": "FRD-2024-002",
+    "amount": 285000,
+    "merchant": "Flipkart",
+    "location": "Mumbai, Maharashtra",
+    "timestamp": "2024-12-16T03:15:00+05:30",
+    "user_id": "USR-7834",
+    "device_ip": "103.21.58.193",
+    "is_foreign": false,
+    "hour_of_day": 3,
+    "previous_avg_transaction": 4500
+  },
+  {
+    "transaction_id": "FRD-2024-003",
+    "amount": 3200,
+    "merchant": "Reliance Fresh",
+    "location": "Pune, Maharashtra",
+    "timestamp": "2024-12-17T10:45:00+05:30",
+    "user_id": "USR-1192",
+    "device_ip": "49.36.128.71",
+    "is_foreign": false,
+    "hour_of_day": 10,
+    "previous_avg_transaction": 2800
+  },
+  {
+    "transaction_id": "FRD-2024-004",
+    "amount": 8500,
+    "merchant": "DMart",
+    "location": "Bengaluru, Karnataka",
+    "timestamp": "2024-12-18T18:20:00+05:30",
+    "user_id": "USR-5567",
+    "device_ip": "59.92.213.45",
+    "is_foreign": false,
+    "hour_of_day": 18,
+    "previous_avg_transaction": 7200
+  },
+  {
+    "transaction_id": "FRD-2024-005",
+    "amount": 145000,
+    "merchant": "Amazon.in",
+    "location": "Delhi, NCR",
+    "timestamp": "2024-12-19T01:10:00+05:30",
+    "user_id": "USR-3389",
+    "device_ip": "122.176.45.201",
+    "is_foreign": false,
+    "hour_of_day": 1,
+    "previous_avg_transaction": 15000
+  }
+]
