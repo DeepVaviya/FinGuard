@@ -1,0 +1,62 @@
+[
+  {
+    "portfolio_id": "PF-2024-001",
+    "investor_id": "INV-3301",
+    "risk_profile": "moderate",
+    "total_value": 2500000,
+    "equity_percent": 40,
+    "debt_percent": 30,
+    "crypto_percent": 25,
+    "gold_percent": 10,
+    "expected_return_percent": 14,
+    "market_volatility_index": 55
+  },
+  {
+    "portfolio_id": "PF-2024-002",
+    "investor_id": "INV-4421",
+    "risk_profile": "conservative",
+    "total_value": 5000000,
+    "equity_percent": 20,
+    "debt_percent": 25,
+    "crypto_percent": 45,
+    "gold_percent": 10,
+    "expected_return_percent": 18,
+    "market_volatility_index": 42
+  },
+  {
+    "portfolio_id": "PF-2024-003",
+    "investor_id": "INV-5590",
+    "risk_profile": "aggressive",
+    "total_value": 10000000,
+    "equity_percent": 50,
+    "debt_percent": 15,
+    "crypto_percent": 25,
+    "gold_percent": 10,
+    "expected_return_percent": 22,
+    "market_volatility_index": 65
+  },
+  {
+    "portfolio_id": "PF-2024-004",
+    "investor_id": "INV-6678",
+    "risk_profile": "moderate",
+    "total_value": 1000000,
+    "equity_percent": 35,
+    "debt_percent": 35,
+    "crypto_percent": 15,
+    "gold_percent": 15,
+    "expected_return_percent": 12,
+    "market_volatility_index": 48
+  },
+  {
+    "portfolio_id": "PF-2024-005",
+    "investor_id": "INV-7712",
+    "risk_profile": "conservative",
+    "total_value": 20000000,
+    "equity_percent": 30,
+    "debt_percent": 40,
+    "crypto_percent": 10,
+    "gold_percent": 20,
+    "expected_return_percent": 9,
+    "market_volatility_index": 35
+  }
+]
