@@ -1,0 +1,62 @@
+[
+  {
+    "application_id": "LN-2024-001",
+    "applicant_name": "Rajesh Sharma",
+    "monthly_income": 45000,
+    "cibil_score": 550,
+    "loan_amount": 500000,
+    "loan_tenure_months": 36,
+    "existing_emis": 5000,
+    "employer_type": "salaried",
+    "employer_age_months": 24,
+    "loan_applications_last_6mo": 1
+  },
+  {
+    "application_id": "LN-2024-002",
+    "applicant_name": "Priya Patel",
+    "monthly_income": 60000,
+    "cibil_score": 710,
+    "loan_amount": 800000,
+    "loan_tenure_months": 48,
+    "existing_emis": 42000,
+    "employer_type": "salaried",
+    "employer_age_months": 36,
+    "loan_applications_last_6mo": 1
+  },
+  {
+    "application_id": "LN-2024-003",
+    "applicant_name": "Amit Deshmukh",
+    "monthly_income": 85000,
+    "cibil_score": 720,
+    "loan_amount": 1500000,
+    "loan_tenure_months": 60,
+    "existing_emis": 12000,
+    "employer_type": "salaried",
+    "employer_age_months": 48,
+    "loan_applications_last_6mo": 0
+  },
+  {
+    "application_id": "LN-2024-004",
+    "applicant_name": "Sunita Krishnamurthy",
+    "monthly_income": 200000,
+    "cibil_score": 820,
+    "loan_amount": 5000000,
+    "loan_tenure_months": 120,
+    "existing_emis": 35000,
+    "employer_type": "business",
+    "employer_age_months": 96,
+    "loan_applications_last_6mo": 0
+  },
+  {
+    "application_id": "LN-2024-005",
+    "applicant_name": "Vikram Mehta",
+    "monthly_income": 25000,
+    "cibil_score": 680,
+    "loan_amount": 300000,
+    "loan_tenure_months": 24,
+    "existing_emis": 3000,
+    "employer_type": "self-employed",
+    "employer_age_months": 18,
+    "loan_applications_last_6mo": 2
+  }
+]

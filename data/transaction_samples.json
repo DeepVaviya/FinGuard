@@ -1,0 +1,62 @@
+[
+  {
+    "transaction_id": "TXN-2024-001",
+    "sender_account": "HDFC-1234567890",
+    "receiver_account": "SBI-9876543210",
+    "amount": 1500000,
+    "currency": "INR",
+    "transaction_type": "RTGS",
+    "is_international": false,
+    "sender_kyc_status": "complete",
+    "receiver_kyc_status": "complete",
+    "transaction_note": "Property advance payment"
+  },
+  {
+    "transaction_id": "TXN-2024-002",
+    "sender_account": "ICICI-5678901234",
+    "receiver_account": "PNB-4321098765",
+    "amount": 350000,
+    "currency": "INR",
+    "transaction_type": "NEFT",
+    "is_international": false,
+    "sender_kyc_status": "pending",
+    "receiver_kyc_status": "complete",
+    "transaction_note": "Business payment"
+  },
+  {
+    "transaction_id": "TXN-2024-003",
+    "sender_account": "AXIS-3456789012",
+    "receiver_account": "BOB-6543210987",
+    "amount": 200000,
+    "currency": "INR",
+    "transaction_type": "IMPS",
+    "is_international": false,
+    "sender_kyc_status": "complete",
+    "receiver_kyc_status": "complete",
+    "transaction_note": "Vehicle purchase installment"
+  },
+  {
+    "transaction_id": "TXN-2024-004",
+    "sender_account": "KOTAK-7890123456",
+    "receiver_account": "HSBC-2109876543",
+    "amount": 750000,
+    "currency": "USD",
+    "transaction_type": "wire",
+    "is_international": true,
+    "sender_kyc_status": "complete",
+    "receiver_kyc_status": "complete",
+    "transaction_note": "Overseas education fees"
+  },
+  {
+    "transaction_id": "TXN-2024-005",
+    "sender_account": "YES-4567890123",
+    "receiver_account": "IDBI-8901234567",
+    "amount": 5000000,
+    "currency": "INR",
+    "transaction_type": "RTGS",
+    "is_international": false,
+    "sender_kyc_status": "complete",
+    "receiver_kyc_status": "partial",
+    "transaction_note": "Commercial real estate transaction"
+  }
+]
